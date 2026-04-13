@@ -11,7 +11,7 @@ const personalInfo = {
   location: "上海市",
   degree: "本科",
   bilibili: "https://space.bilibili.com/411572714",
-  intro: "深耕照明、电商、汽车行业近十年经验。具备独立完成从项目创意到后期制作的全流程。擅长使用虚幻引擎(UE5)、Blender等构建极具沉浸感的视觉体验。"
+  intro: "深耕照明亮化、消费电子、汽车广告及数字孪生领域近10年。具备独立完成从项目创意到后期制作的全流程。主要负责动画、模型、渲染、特效、虚幻引擎蓝图开发，有丰富的室内外日夜景动画漫游效果、汽车广告宣传图/视频、电商产品宣传图/动效视频、数字孪生、可视化交互程序开发、裸眼 3D 及沉浸式视频片源制作，熟练运用 AI 辅助设计管线优化效率，精通多款 DCC 软件与引擎协同作业。"
 };
 
 const skills = [
@@ -23,13 +23,13 @@ const experiences = [
     period: "2021.05 - 至今",
     company: "上海三思电子工程有限公司",
     role: "3D设计组长",
-    desc: "负责项目整体创意设计，跨部门沟通协调，保障项目顺利运行。统筹大型数字可视化及沉浸式视频片源制作。"
+    desc: "创意把控；主导项目整体视觉创意设计与技术方案落地，确保项目艺术表现与商业目标高度契合。\n流程管理；负责组内任务分配与进度追踪，协调跨部门资源解决 UE 蓝图开发、大型场景渲染等核心技术难题。\n标杆案例；主导深圳体育场全球首例毫米级开合屏视觉模拟、苏州科技馆 26米巨型球幕沉浸式影片制作、上海八万人体育场近万平天幕亮化设计。"
   },
   {
     period: "2019.09 - 2021.05",
     company: "深圳名家汇科技股份有限公司",
     role: "3D设计组长",
-    desc: "负责项目整体创意设计，主导多个千万级项目落地，涵盖数字孪生与室内外漫游动画开发。"
+    desc: "负责城市级夜景亮化项目的整体创意设计与动态视觉输出，主导多个千万级项目落地，涵盖数字孪生与室内外漫游动画开发。"
   },
   {
     period: "2016.10 - 2019.09",
@@ -567,7 +567,7 @@ export default function App() {
                     <div className="text-sm font-bold text-blue-500 tracking-wider mb-1">{exp.period}</div>
                     <div className="text-xl font-bold text-slate-800">{exp.company}</div>
                     <div className="text-md font-medium text-slate-500 mb-3">{exp.role}</div>
-                    <p className="text-slate-600 text-sm leading-relaxed max-w-lg">{exp.desc}</p>
+                    <p className="text-slate-600 text-sm leading-relaxed max-w-lg whitespace-pre-line">{exp.desc}</p>
                   </div>
                 ))}
               </div>
@@ -607,6 +607,10 @@ export default function App() {
             <div className="flex flex-wrap justify-center gap-6 relative z-10 mt-12">
               <a href={`tel:${personalInfo.phone}`} className="flex items-center gap-3 px-8 py-4 bg-slate-900 text-white rounded-full hover:bg-blue-600 hover:shadow-lg hover:-translate-y-1 transition-all font-medium">📞 {personalInfo.phone}</a>
               <a href={`mailto:${personalInfo.email}`} className="flex items-center gap-3 px-8 py-4 bg-white shadow-sm border border-slate-200 text-slate-800 rounded-full hover:shadow-md hover:-translate-y-1 hover:border-slate-300 transition-all font-medium">✉️ {personalInfo.email}</a>
+              <a href={personalInfo.bilibili} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 px-8 py-4 bg-[#fb7299]/10 text-[#fb7299] border border-[#fb7299]/30 rounded-full hover:bg-[#fb7299] hover:text-white hover:shadow-lg hover:shadow-[#fb7299]/20 hover:-translate-y-1 transition-all font-medium">
+                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M17.813 4.653h.854c1.51.054 2.769.578 3.773 1.574 1.004.995 1.524 2.249 1.56 3.76v7.36c-.036 1.51-.556 2.769-1.56 3.773s-2.262 1.524-3.773 1.56H5.333c-1.51-.036-2.769-.556-3.773-1.56S.036 18.858 0 17.347v-7.36c.036-1.511.556-2.765 1.56-3.76 1.004-.996 2.262-1.52 3.773-1.574h.774l-1.174-1.12a1.234 1.234 0 0 1-.373-.906c0-.356.124-.658.373-.907l.027-.027c.267-.249.573-.373.92-.373.347 0 .653.124.92.373L9.653 4.44c.071.071.134.142.187.213h4.267a.836.836 0 0 1 .16-.213l2.853-2.747c.267-.249.573-.373.92-.373.347 0 .662.124.92.373.267.249.391.551.391.907 0 .355-.124.653-.373.907zM5.333 7.24c-.746.018-1.373.276-1.88.773-.506.498-.769 1.13-.786 1.894v7.52c.017.764.28 1.395.786 1.893.507.498 1.134.756 1.88.773h13.334c.746-.017 1.373-.275 1.88-.773.506-.498.769-1.129.786-1.893v-7.52c-.017-.765-.28-1.396-.786-1.894-.507-.497-1.134-.755-1.88-.773zM8 11.107c.373 0 .684.124.933.373.25.249.383.569.4.96v1.173c-.017.391-.15.711-.4.96-.249.25-.56.374-.933.374s-.684-.125-.933-.374c-.25-.249-.383-.569-.4-.96V12.44c0-.373.129-.689.386-.947.258-.257.574-.386.947-.386zm8 0c.373 0 .684.124.933.373.25.249.383.569.4.96v1.173c-.017.391-.15.711-.4.96-.249.25-.56.374-.933.374s-.684-.125-.933-.374c-.25-.249-.383-.569-.4-.96V12.44c0-.373.129-.689.386-.947.258-.257.574-.386.947-.386z"/></svg>
+                Bilibili 主页
+              </a>
             </div>
           </GlassCard>
         </FadeInScroll>
