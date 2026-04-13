@@ -47,32 +47,32 @@ const portfolioCategories = [
     items: [
       { 
         id: "v1", title: "小米 SU7", brand: "汽车动态视频", 
-        img: "https://i.postimg.cc/pdtmGpdR/su7.png", 
+        img: "https://i.postimg.cc/hGdGsRm5/su7.webp", 
         videoUrl: "https://player.bilibili.com/player.html?isOutside=true&aid=116391248201263&bvid=BV1XzDDBxEup&cid=37447208423&p=1" 
       },
       { 
         id: "v2", title: "Chanel粉色邂逅香水", brand: "美妆动态视频", 
-        img: "https://i.postimg.cc/YSwvnhSt/chanel.png?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", 
+        img: "https://i.postimg.cc/Mp4T1pnP/chanel.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", 
         videoUrl: "https://player.bilibili.com/player.html?isOutside=true&aid=116391231425518&bvid=BV1Q6DDBREu3&cid=37447207065&p=1" 
       },
       { 
         id: "v3", title: "Lumina吹风机", brand: "吹风机动态视频", 
-        img: "https://i.postimg.cc/JhWs6GhW/lumina.png?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", 
+        img: "https://i.postimg.cc/qvYR2vNc/lumina.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", 
         videoUrl: "https://player.bilibili.com/player.html?isOutside=true&aid=116391231358109&bvid=BV1h6DDBREyZ&cid=37447141002&p=1" 
       },
       { 
         id: "v4", title: "雅诗兰黛小棕瓶", brand: "美妆动态视频", 
-        img: "https://i.postimg.cc/rpLDnKpk/ysld.png?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", 
+        img: "https://i.postimg.cc/8C6C4gv9/ysld.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", 
         videoUrl: "https://player.bilibili.com/player.html?isOutside=true&aid=116391248202835&bvid=BV1QzDDBxEHp&cid=37447271181&p=1" 
       },
       { 
         id: "v5", title: "奔驰交互设计", brand: "汽车交互设计", 
-        img: "https://i.postimg.cc/y6F3Rh6L/benz.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", 
+        img: "https://i.postimg.cc/W1K301dX/benz.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", 
         videoUrl: "https://player.bilibili.com/player.html?isOutside=true&aid=113577574795283&bvid=BV14tzZY7EYM&cid=27127451276&p=1" 
       },
       { 
         id: "v6", title: "室内可视化交互设计", brand: "室内交互设计", 
-        img: "https://i.postimg.cc/h49Qm84C/shinei.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", 
+        img: "https://i.postimg.cc/g25J32x7/shinei.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", 
         videoUrl: "https://player.bilibili.com/player.html?isOutside=true&aid=317694844&bvid=BV1YP411W7Jc&cid=1246777944&p=1" 
       },
     ]
@@ -85,95 +85,94 @@ const portfolioCategories = [
       { 
         id: "p1", title: "雅诗兰黛 小棕瓶", brand: "护肤品", 
         desc: "针对高反光玻璃材质与液体质感的极致打磨，棚拍级布光重构。",
-        img: "https://i.postimg.cc/vmmw7PZb/07ysld.jpg",
+        img: "https://i.postimg.cc/T1W5W59D/07ysld.webp",
         galleryLayout: 'full', 
         gallery: [
-          "https://i.postimg.cc/FKKXbPs6/01ysld.jpg", 
-          "https://i.postimg.cc/HLL10SsP/02ysld.jpg", 
-          "https://i.postimg.cc/cJJG7D4P/03ysld.jpg",
-          "https://i.postimg.cc/CKKpCvLX/04ysld.jpg",
-          "https://i.postimg.cc/LssFky8F/05ysld.jpg",
-          "https://i.postimg.cc/HLL10SkT/06ysld.jpg",
-          "https://i.postimg.cc/TPPvjk3R/08ysld.jpg",
-          "https://i.postimg.cc/ZqqzPf5K/09ysld.jpg",
-          "https://i.postimg.cc/6QQxVHp3/10ysld.jpg",
-          "https://i.postimg.cc/mrrW3dgk/11ysld.jpg"
+          "https://i.postimg.cc/T1W5W59D/07ysld.webp", 
+          "https://i.postimg.cc/br2S2STJ/02ysld.webp", 
+          "https://i.postimg.cc/mkF1F1wh/03ysld.webp",
+          "https://i.postimg.cc/tJVnVn5Y/04ysld.webp",
+          "https://i.postimg.cc/MHjfjfDf/05ysld.webp",
+          "https://i.postimg.cc/Bb1P1Pgb/01ysld.webp",
+          "https://i.postimg.cc/cC8t8tm8/08ysld.webp",
+          "https://i.postimg.cc/hv7Q7Qr8/09ysld.webp",
+          "https://i.postimg.cc/7hTJTJVS/10ysld.webp",
+          "https://i.postimg.cc/QCWKWKbQ/11ysld.webp"
         ]
       },
       { 
         id: "p2", title: "Oberni 婴儿奶瓶", brand: "母婴产品", 
         desc: "展现瓷白瓶身与金属质感的碰撞，以及膏体细节渲染。",
-        img: "https://i.postimg.cc/zBZZmqFP/2oberni.jpg",
+        img: "https://i.postimg.cc/tgydQkz5/2oberni.webp",
         galleryLayout: 'portrait', 
         gallery: [
-          "https://i.postimg.cc/Pq8sFC1n/1oberni.jpg",
-          "https://i.postimg.cc/XvySDr90/3oberni.jpg",
-          "https://i.postimg.cc/TPWMHKn6/4oberni.jpg",
-          "https://i.postimg.cc/7688vqnF/5oberni.jpg",
-          "https://i.postimg.cc/C1TTyw4y/6oberni.jpg",
-          "https://i.postimg.cc/7688vqNy/7oberni.jpg"
+          "https://i.postimg.cc/tgydQkz5/2oberni.webp",
+          "https://i.postimg.cc/Jhm3VxQQ/1oberni.webp",
+          "https://i.postimg.cc/YSkNKRx8/3oberni.webp",
+          "https://i.postimg.cc/N0Y8qDxD/4oberni.webp",
+          "https://i.postimg.cc/mrR3fjSX/5oberni.webp",
+          "https://i.postimg.cc/Bvs59pC7/6oberni.webp",
+          "https://i.postimg.cc/Jhm3VxQd/7oberni.webp"
         ]
       },
       { 
         id: "p3", title: "往复式电动 剃须刀", brand: "电商海报", 
         desc: "科技感暗调布光，拉丝金属材质与内部结构爆炸图解析渲染。",
-        img: "https://i.postimg.cc/RCXmnjBd/1txd.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        img: "https://i.postimg.cc/PJBZ6Qxg/3txd.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         galleryLayout: 'grid',
         gallery: [
-          "https://i.postimg.cc/RCXmnjBd/1txd.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/Y2b7mJH6/2txd.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/bY3P2Khn/3txd.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/CL5gCmMp/4txd.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/SNRhLDSB/5txd.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/Yq0HNb2w/6txd.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/J40L3P74/8txd.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/tR2bVLjN/9txd.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+          "https://i.postimg.cc/PJBZ6Qxg/3txd.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/8cqWymcg/1txd.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/90vTxY05/4txd.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/fWFxTDKm/8txd.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/wMSJWQMK/2txd.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/3r6gJYB0/5txd.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/wxPhTgVJ/6txd.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/tRfhCp56/7txd.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
         ]
       },
       { 
         id: "p4", title: "黑金轻奢 电动牙刷", brand: "电商海报", 
         desc: "黑金轻奢电动牙刷 超写实电商级高端质感产品渲染。",
-        img: "https://i.postimg.cc/13kx0S43/1yashua.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        img: "https://i.postimg.cc/XvV5DJV2/2yashua.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         galleryLayout: 'grid',
         gallery: [
-          "https://i.postimg.cc/13kx0S43/1yashua.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/YSY5bPmH/2yashua.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/kg0rNCDD/3yashua.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/QM120zWs/4yashua.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/xdMwtZb9/5yashua.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/JhZfPFB7/6yashua.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/XvdRQPyj/7yashua.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/vZJR7yDT/8yashua.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+          "https://i.postimg.cc/XvV5DJV2/2yashua.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/hGSm3jS2/1yashua.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/9fW9NMWJ/3yashua.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/6Q9Z1391/4yashua.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/0N8SHQ8h/5yashua.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/KYZTszZw/6yashua.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/43JcFdJr/7yashua.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
         ]
       },
       { 
         id: "p5", title: "小米 SU7", brand: "电商海报", 
         desc: "小米 SU7 高性能纯电汽车 全场景高端写实质感渲染。",
-        img: "https://i.postimg.cc/MH8nMgJc/8SU7.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        img: "https://i.postimg.cc/sDQ4pvXw/4SU7.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         galleryLayout: 'grid',
         gallery: [
-          "https://i.postimg.cc/MH8nMgJc/8SU7.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/9037PrT8/3SU7.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/KjXM7RLC/2SU7.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/gj9ZynRC/1SU7.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/Gt0yPHYV/4SU7.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/0jpJVP00/5SU7.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/ydRJNst4/6SU7.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/mkGPzKWt/7SU7.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/90jDRsH0/9SU7.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+          "https://i.postimg.cc/zXbFnVBQ/5SU7.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/rF0NSKmP/6SU7.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/5NYSw60G/7SU7.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/7YGngf6d/8SU7.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/FsdVj7zt/9SU7.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/fTtfxJL5/2SU7.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/zXbFnVBx/1SU7.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/652fdy3c/3SU7.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/sDQ4pvXw/4SU7.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
         ]
       },
       { 
         id: "p6", title: "轻奢 扫拖机器人", brand: "电商海报", 
         desc: "轻奢扫拖机器人 电商级写实质感渲染。",
-        img: "https://i.postimg.cc/GtGBj3mr/2SDJQR.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        img: "https://i.postimg.cc/tgt5YwTR/2SDJQR.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         galleryLayout: 'grid',
         gallery: [
-          "https://i.postimg.cc/GtGBj3mr/2SDJQR.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/gcZ6psq6/1SDJQR.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/D0LWcfwv/3SDJQR.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/hvTJ04t4/4SDJQR.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-          "https://i.postimg.cc/T2DWx0q7/5SDJQR.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/zfSjV6BB/1SDJQR.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/SsSG8d2s/5SDJQR.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/s29cvqXg/3SDJQR.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+          "https://i.postimg.cc/TPq9pFwh/4SDJQR.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
         ]
       }
     ]
@@ -186,25 +185,26 @@ const portfolioCategories = [
       { 
         id: "i1", title: "现代极简客厅", brand: "空间渲染", 
         desc: "一线山海独栋奢墅，定制高阶生活主场，枕山海而居，赴极简自然的奢居之约。",
-        img: "https://i.postimg.cc/RFLKQw1g/07bieshu.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        img: "https://i.postimg.cc/s2F6B54K/07bieshu.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         galleryLayout: 'full',
         gallery: [
-          "https://i.postimg.cc/RFLKQw1g/07bieshu.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/Pxj1wSDF/01bieshu.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/mDs7Hm9m/02bieshu.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/0Qs7wVSX/03bieshu.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/9Mhy7L98/04bieshu.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/j54PQy6Z/05bieshu.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/9MYZtyPp/06bieshu.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/Y9zYfQN8/08bieshu.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/xC3MyLGs/09bieshu.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/cHBwMf75/11bieshu.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/zBFKSTwc/12bieshu.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/85mMBLd3/13bieshu.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/1trwcDcx/14bieshu.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/xC3MyLGw/15bieshu.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/V6WnBXBQ/16bieshu.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/3RFmC2CT/17bieshu.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80"
+          "https://i.postimg.cc/s2F6B54K/07bieshu.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/1zxCgDrp/01bieshu.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/5tc7H8Sv/02bieshu.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/zfmtLTFT/03bieshu.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/8C8KFLmM/04bieshu.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/HLGZJb92/05bieshu.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/TP87ynJJ/06bieshu.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/Jhw6yj5x/08bieshu.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/fb423Yfg/09bieshu.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/xdrxkL3p/10bieshu.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/MGkPc1mF/11bieshu.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/zfmtLTFM/12bieshu.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/VNj7X5KK/13bieshu.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/mrQd7hm8/14bieshu.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/MGys1X93/15bieshu.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/d08WGD5S/16bieshu.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/xdKsLq6B/17bieshu.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80"
         ]
       }
     ]
@@ -217,21 +217,20 @@ const portfolioCategories = [
       { 
         id: "s1", title: "武士刀", brand: "模型材质", 
         desc: "硬表面做旧，刀刃血槽与护手处的划痕、氧化、泥土等复杂分层材质刻画。",
-        img: "https://i.postimg.cc/Wbd3nMT8/AK-03.png?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        img: "https://i.postimg.cc/c4CTJFwn/2ak.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         galleryLayout: 'full',
         gallery: [
-          "https://i.postimg.cc/Wbd3nMT8/AK-03.png?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/hPXjr9KR/AK-01.png?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/pXmTZDR1/AK-02.png?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/RVWFRc4G/AK-04.png?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/CLR1NjwL/AK-05.png?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/905hYqpx/01dao.png?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/GtwCxsQ7/02dao.png?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/GtwCxsQg/03dao.png?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/PJsjQ84c/04dao.png?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/J0VL5Bq9/05dao.png?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/HnDg972R/06dao.png?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
-          "https://i.postimg.cc/76T4zN3v/07dao.png?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80"
+          "https://i.postimg.cc/c4CTJFwn/2ak.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/NfFb0dmR/1ak.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/ncrTL3B0/3ak.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/GhfKTvxv/4ak.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/5NyptsLF/1md.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/yYxnNLcy/2md.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/wTMFBwLX/1td.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/ZKnjqwpc/2td.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/8PY4fLmv/3td.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/rFHjR5NN/4td.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80",
+          "https://i.postimg.cc/xTZ5NL3R/5td.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=2752&q=80"
         ]
       }
     ]
@@ -284,31 +283,74 @@ const GlassCard = ({ children, className = "" }) => (
 export default function App() {
   const [currentPage, setCurrentPage] = useState('home'); 
   const [selectedProject, setSelectedProject] = useState(null); 
-  const [zoomedImage, setZoomedImage] = useState(null); 
+  
+  // 核心更新：使用索引来追踪当前打开的图片，并添加缩放比例状态
+  const [zoomedIndex, setZoomedIndex] = useState(null); 
+  const [zoomScale, setZoomScale] = useState(1);
+  
+  // --- 新增：图片拖拽坐标与状态 ---
+  const [pan, setPan] = useState({ x: 0, y: 0 });
+  const [isDragging, setIsDragging] = useState(false);
+  const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
+  const [hasDragged, setHasDragged] = useState(false); // 用来区分是“拖拽”还是单纯的“点击”
+  // --------------------------------
+
   const [activeVideo, setActiveVideo] = useState(null);
   const [scrollY, setScrollY] = useState(0);
 
+  // --- 🔒 新增：防盗图功能，全局禁用图片右键菜单 ---
+  useEffect(() => {
+    const handleContextMenu = (e) => {
+      // 如果鼠标右键点击的是图片，就阻止默认的菜单弹出
+      if (e.target.tagName === 'IMG') {
+        e.preventDefault(); 
+      }
+    };
+    document.addEventListener('contextmenu', handleContextMenu);
+    return () => document.removeEventListener('contextmenu', handleContextMenu);
+  }, []);
+  // ------------------------------------------------
+
+  // 监听滚动
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
     window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // 页面切换时回到顶部
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [currentPage, selectedProject]);
 
+  // 控制模态框打开时的底层滚动
   useEffect(() => {
-    if (zoomedImage || activeVideo) {
+    if (zoomedIndex !== null || activeVideo) {
       document.body.style.overflow = 'hidden';
     } else {
       document.body.style.overflow = 'unset';
     }
     return () => { document.body.style.overflow = 'unset'; }
-  }, [zoomedImage, activeVideo]);
+  }, [zoomedIndex, activeVideo]);
 
+  // 键盘快捷键监听：左右切换、ESC退出
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (zoomedIndex !== null) {
+        if (e.key === 'ArrowLeft') handlePrevImage();
+        if (e.key === 'ArrowRight') handleNextImage();
+        if (e.key === 'Escape') {
+          setZoomedIndex(null);
+          setZoomScale(1);
+          setPan({ x: 0, y: 0 }); // 退出时重置拖拽位置
+        }
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [zoomedIndex, selectedProject]);
+
+  // --- 交互处理函数 ---
   const handleProjectClick = (item) => {
     if (item.videoUrl) {
       setActiveVideo(item.videoUrl);
@@ -324,6 +366,75 @@ export default function App() {
     setCurrentPage(page);
   };
 
+  // 切换上一张图片
+  const handlePrevImage = () => {
+    if (!selectedProject || !selectedProject.gallery) return;
+    setZoomScale(1); // 切换图片时还原缩放比例
+    setPan({ x: 0, y: 0 }); // 切换图片时还原拖拽位置
+    setZoomedIndex(prev => prev > 0 ? prev - 1 : selectedProject.gallery.length - 1);
+  };
+
+  // 切换下一张图片
+  const handleNextImage = () => {
+    if (!selectedProject || !selectedProject.gallery) return;
+    setZoomScale(1); // 切换图片时还原缩放比例
+    setPan({ x: 0, y: 0 }); // 切换图片时还原拖拽位置
+    setZoomedIndex(prev => prev < selectedProject.gallery.length - 1 ? prev + 1 : 0);
+  };
+
+  // 处理滚轮缩放
+  const handleWheelZoom = (e) => {
+    if (zoomedIndex === null) return;
+    // 动态调整缩放比例，向上滚放大，向下滚缩小。限制范围在 50% 到 500% 之间
+    setZoomScale(prev => {
+      const newScale = prev + (e.deltaY > 0 ? -0.15 : 0.15);
+      return Math.min(Math.max(0.5, newScale), 5); 
+    });
+  };
+
+  // --- 新增：图片拖拽核心计算函数 ---
+  const onImgMouseDown = (e) => {
+    if (zoomScale > 1) { // 只有放大后才允许拖拽
+      setIsDragging(true);
+      setHasDragged(false);
+      setDragStart({ x: e.clientX - pan.x, y: e.clientY - pan.y });
+    }
+  };
+
+  const onImgMouseMove = (e) => {
+    if (isDragging && zoomScale > 1) {
+      setHasDragged(true); // 标记正在发生拖拽位移
+      setPan({
+        x: e.clientX - dragStart.x,
+        y: e.clientY - dragStart.y
+      });
+    }
+  };
+
+  const onImgMouseUp = () => {
+    if (isDragging) {
+      setIsDragging(false);
+    }
+  };
+
+  const onImgClick = (e) => {
+    e.stopPropagation();
+    // 如果刚才发生了拖拽，就阻止默认的点击缩小效果
+    if (hasDragged) {
+      setHasDragged(false);
+      return;
+    }
+    // 如果是纯粹的点击，则执行放大/还原
+    setZoomScale(prev => {
+      if (prev > 1) {
+        setPan({ x: 0, y: 0 }); // 还原时居中
+        return 1;
+      }
+      return 2;
+    });
+  };
+  // ------------------------------------
+
   // ==== 渲染卡片内容 ====
   const renderCard = (item, isFeatured = false) => {
     const isVideo = !!item.link || !!item.videoUrl;
@@ -333,7 +444,7 @@ export default function App() {
         onClick={() => handleProjectClick(item)} 
         className="group relative rounded-[2rem] overflow-hidden shadow-[0_4px_20px_rgba(0,0,0,0.05)] aspect-[4/3] cursor-pointer hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] transition-shadow duration-500"
       >
-        <img src={item.img} alt={item.title} className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"/>
+        <img src={item.img} alt={item.title} loading="lazy" className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-out"/>
         <div className="absolute inset-0 bg-slate-900/15 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
         
         {isVideo ? (
@@ -587,11 +698,12 @@ export default function App() {
                 <div 
                   className={`group relative rounded-[2rem] overflow-hidden shadow-xl border border-white/40 w-full cursor-zoom-in ${isPortrait ? 'aspect-[3/4]' : ''}`}
                   style={!isPortrait ? { aspectRatio: '2752 / 1536' } : {}}
-                  onClick={() => setZoomedImage(imgUrl)}
+                  onClick={() => setZoomedIndex(index)} // 传入索引号
                 >
                   <img 
                     src={imgUrl} 
                     alt={`${selectedProject.title} detail ${index}`}
+                    loading="lazy"
                     className="w-full h-full object-cover transform group-hover:scale-[1.03] transition-transform duration-1000 ease-out"
                   />
                   <div className="absolute inset-0 shadow-[inset_0_0_0_1px_rgba(255,255,255,0.3)] rounded-[2rem] pointer-events-none"></div>
@@ -657,24 +769,66 @@ export default function App() {
         <p>© {new Date().getFullYear()} {personalInfo.name} ({personalInfo.enName}). Crafted with React.</p>
       </footer>
 
-      {/* --- 图片放大模态框 --- */}
-      {zoomedImage && (
+      {/* --- 图片放大与切换模态框 --- */}
+      {zoomedIndex !== null && selectedProject && selectedProject.gallery && (
         <div 
-          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/85 backdrop-blur-sm cursor-zoom-out animate-fadeIn"
-          onClick={() => setZoomedImage(null)}
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 backdrop-blur-md animate-fadeIn"
+          onClick={() => { setZoomedIndex(null); setZoomScale(1); setPan({ x: 0, y: 0 }); }}
+          onWheel={handleWheelZoom} // 绑定滚轮事件
         >
+          {/* 顶部关闭按钮 */}
           <button 
-            className="absolute top-6 right-6 text-white/70 hover:text-white bg-white/10 hover:bg-white/20 rounded-full p-3 backdrop-blur-md transition-all duration-300"
-            onClick={(e) => { e.stopPropagation(); setZoomedImage(null); }}
+            className="absolute top-6 right-6 text-white/70 hover:text-white bg-white/10 hover:bg-white/20 rounded-full p-3 backdrop-blur-md transition-all duration-300 z-[110]"
+            onClick={(e) => { e.stopPropagation(); setZoomedIndex(null); setZoomScale(1); setPan({ x: 0, y: 0 }); }}
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path></svg>
           </button>
           
-          <img 
-            src={zoomedImage} 
-            alt="Zoomed Detail" 
-            className="max-w-[95vw] max-h-[90vh] object-contain rounded-xl shadow-2xl animate-scaleIn select-none"
-          />
+          {/* 左侧上一张按钮 */}
+          <button 
+            className="absolute left-4 md:left-8 top-1/2 -translate-y-1/2 text-white/50 hover:text-white bg-white/10 hover:bg-white/20 rounded-full p-3 md:p-4 backdrop-blur-md transition-all duration-300 z-[110] group"
+            onClick={(e) => { e.stopPropagation(); handlePrevImage(); }}
+          >
+            <svg className="w-6 h-6 md:w-8 md:h-8 transform group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7"></path></svg>
+          </button>
+
+          {/* 图片主体区域 */}
+          <div 
+            className="relative flex items-center justify-center w-full h-full overflow-hidden"
+            onClick={(e) => e.stopPropagation()} // 防止点击图片区域关闭模态框
+            onMouseMove={onImgMouseMove}  // 绑定拖拽移动
+            onMouseUp={onImgMouseUp}      // 绑定拖拽松开
+            onMouseLeave={onImgMouseUp}   // 鼠标移出容器也停止拖拽
+          >
+            <img 
+              src={selectedProject.gallery[zoomedIndex]} 
+              alt="Zoomed Detail" 
+              onMouseDown={onImgMouseDown} // 绑定拖拽按下
+              onClick={onImgClick}         // 绑定防冲突的点击事件
+              style={{
+                transform: `translate(${pan.x}px, ${pan.y}px) scale(${zoomScale})`,
+                transition: isDragging ? 'none' : 'transform 0.3s cubic-bezier(0.16, 1, 0.3, 1)', // 拖拽时取消动画让画面跟手
+                cursor: zoomScale > 1 ? (isDragging ? 'grabbing' : 'grab') : 'zoom-in' // 核心动态手掌样式
+              }}
+              className="max-w-[95vw] max-h-[90vh] object-contain select-none"
+              draggable="false" // 进一步防御原生拖拽
+            />
+          </div>
+
+          {/* 右侧下一张按钮 */}
+          <button 
+            className="absolute right-4 md:right-8 top-1/2 -translate-y-1/2 text-white/50 hover:text-white bg-white/10 hover:bg-white/20 rounded-full p-3 md:p-4 backdrop-blur-md transition-all duration-300 z-[110] group"
+            onClick={(e) => { e.stopPropagation(); handleNextImage(); }}
+          >
+            <svg className="w-6 h-6 md:w-8 md:h-8 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path></svg>
+          </button>
+
+          {/* 底部缩放提示与进度指示器 */}
+          <div className="absolute bottom-6 left-1/2 -translate-x-1/2 px-5 py-2.5 bg-black/50 backdrop-blur-md rounded-full text-white/70 text-sm font-medium tracking-widest z-[110] pointer-events-none flex items-center gap-4">
+             <span>{zoomedIndex + 1} / {selectedProject.gallery.length}</span>
+             <span className="w-1.5 h-1.5 bg-white/30 rounded-full"></span>
+             <span>🔍 {Math.round(zoomScale * 100)}%</span>
+          </div>
         </div>
       )}
 
@@ -686,7 +840,7 @@ export default function App() {
         >
           {/* 关闭按钮 */}
           <button 
-            className="absolute top-6 right-6 text-white/70 hover:text-white bg-white/10 hover:bg-white/20 rounded-full p-3 backdrop-blur-md transition-all duration-300 z-10"
+            className="absolute top-6 right-6 text-white/70 hover:text-white bg-white/10 hover:bg-white/20 rounded-full p-3 backdrop-blur-md transition-all duration-300 z-[110]"
             onClick={(e) => { e.stopPropagation(); setActiveVideo(null); }}
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path></svg>
@@ -701,17 +855,27 @@ export default function App() {
               src={activeVideo} 
               className="w-full h-full"
               scrolling="no" 
-              border="0" 
-              frameBorder="no" 
-              framespacing="0" 
+              frameBorder="0" 
               allowFullScreen={true}
-              referrerPolicy="no-referrer" // 破解B站防盗链，防止黑屏或报错
+              referrerPolicy="no-referrer" /* 破解B站防盗链，防止黑屏或报错 */
             ></iframe>
           </div>
         </div>
       )}
 
       <style dangerouslySetInnerHTML={{__html: `
+        /* 🔒 新增：禁用图片拖拽、选中和移动端长按菜单 */
+        img {
+          -webkit-user-drag: none;
+          -khtml-user-drag: none;
+          -moz-user-drag: none;
+          -o-user-drag: none;
+          user-select: none;
+          -webkit-user-select: none;
+          -ms-user-select: none;
+          -webkit-touch-callout: none; /* 禁止 iOS 弹出长按保存菜单 */
+        }
+        
         @keyframes blob { 0% { transform: translate(0px, 0px) scale(1); } 33% { transform: translate(30px, -50px) scale(1.1); } 66% { transform: translate(-20px, 20px) scale(0.9); } 100% { transform: translate(0px, 0px) scale(1); } }
         @keyframes pulse-slow { 0%, 100% { opacity: 0.3; transform: translate(-50%, -50%) scale(1); } 50% { opacity: 0.5; transform: translate(-50%, -50%) scale(1.05); } }
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
